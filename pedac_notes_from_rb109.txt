@@ -1,0 +1,63 @@
+Key skills to master:
+
+1. Systematic problem-solving
+
+  * PEDAC
+  * Debugging systematically when I make mistakes
+  * Course-correcting after debugging (updating algorithm,
+    pseudocode and actual code)
+
+2. Verbalising thought process while programming
+
+-------------------------------------------------------
+
+Problem decomposition:
+- Flow chart - at least using words
+- Build each piece of functionality as a sub-process, in a
+  sensible order
+- Test each sub-process before moving on to the next one
+
+PEDAC:
+P: - Precise definition of expected input and output
+     using computational language
+   - Should the output be a new object?
+E: - Examples that cover all the main cases and
+     edge cases - see below
+   - Should ask questions to clarify what to do
+     with edge cases!
+A: - Describe algorithm independent of data structure,
+     using pseudocode
+   - Avoid actual code - limiting my options that way
+   - Can use example input data, and intermediate
+     example outputs, within my algorithm description
+   - No gaps!
+D: - Decide on data structure based on what we'd
+     like to do with the data
+C: - Explain what I'm trying to do, and the output
+     I'm aiming for, before actually writing out
+     code
+   - Test each piece of logic, if my program is a
+     combination of sub-processes
+   - Don't try to be clever on the first go (refrain
+     #reduce and #with_object)
+   - Refactor AFTER, not during, 1st attempt
+
+Edge cases:
+- Confirm there's no need to validate input
+- Characters: cases, non-alphanumeric characters
+- Numbers: zero and infinity, or negative numbers
+- Empty: nil, empty Array, Hash or String
+- General: repetition/duplication, Boundary conditions
+- Errors: how to handle? Print error message, or return
+          special value?
+
+Debugging:
+- Reproduce the error - know which input data are causing
+  the error
+- Trap the bug - either use puts, or pry (know how to
+  use step, next and continue)
+
+Course-correction:
+- Update algorithm and pseudocode first
+- GO BACK to the pseudocode
+- Don't be afraid to start over!
