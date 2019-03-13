@@ -1,5 +1,7 @@
 =begin
 
+***Did not watch solution video***
+
 Input
 - String - word
 - Array of Strings - words, some of which may be anagrams of the input worwd

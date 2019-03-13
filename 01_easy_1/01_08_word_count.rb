@@ -1,5 +1,7 @@
 =begin
 
+***Did not watch solution video***
+
 Input:
 - String
 - words delimited by any non-alphanumeric chars, EXCEPT for

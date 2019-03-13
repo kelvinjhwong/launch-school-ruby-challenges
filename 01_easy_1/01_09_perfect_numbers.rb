@@ -1,5 +1,7 @@
 =begin
 
+***Did not watch solution video***
+
 Input
 - Integer
 - Positive

@@ -1,5 +1,7 @@
 =begin
 
+***Did not watch solution video***
+
 Input
 - Integer
 
@@ -19,8 +21,6 @@ Algorithm/data structure
   - Remove all its multiples from `nums`, mutating nums itself
   - Break iteration when we reach the end of `nums`
 - Return `nums`
-
-***Did not watch solution video***
 
 =end
 

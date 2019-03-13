@@ -1,5 +1,7 @@
 =begin
 
+***Did not watch solution video***
+
 Input:
 - String
 - Octal
@@ -18,8 +20,6 @@ Algorithm:
 - Convert back to String, split into chars e.g. ['2', '3', '3']
 - Iterate in reverse with index, each time multiplying by 8**(2 - idx)
 - Reduce to sum
-
-***Did not watch solution video***
 
 =end
 

@@ -1,5 +1,7 @@
 =begin
 
+***Did not watch solution video***
+
 Input:
 - Integer ceiling
 - Collection of Integer factors (optional)
@@ -18,8 +20,6 @@ Algorithm
 - Iterate through all factors; for each factor
   - Push all multiples of that factor to `multiples`, up to ceiling
 - Return sum of `multiples`'s #uniq elements
-
-***Did not watch solution video***
 
 =end
 

@@ -1,5 +1,7 @@
 =begin
 
+***Did not watch solution video***
+
 Input
 - 2 Strings with chars 'C', 'A', 'G' or 'T'
 - May be empty
