@@ -36,6 +36,8 @@ D: - Decide on data structure based on what we'd
 C: - Explain what I'm trying to do, and the output
      I'm aiming for, before actually writing out
      code
+   - Can start from the end! Write out the
+     'orchestration engine' first
    - Test each piece of logic, if my program is a
      combination of sub-processes
    - Don't try to be clever on the first go (refrain
