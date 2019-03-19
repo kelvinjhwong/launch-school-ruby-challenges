@@ -25,12 +25,15 @@ E: - Examples that cover all the main cases and
      edge cases - see below
    - Should ask questions to clarify what to do
      with edge cases!
-A: - Describe algorithm independent of data structure,
-     using pseudocode
-   - Avoid actual code - limiting my options that way
-   - Can use example input data, and intermediate
+A: - Play around with simple examples, to get a feel
+     for the algorithm + communicate it better to
+     the interviewer
+   - Describe algorithm independent of data structure,
+     using pseudocode (but don't over-do it so it
+     already looks like actual code)
+   - Should use example input data, and intermediate
      example outputs, within my algorithm description
-   - No gaps!
+   - Move on only when there are no major gaps!
 D: - Decide on data structure based on what we'd
      like to do with the data
 C: - Explain what I'm trying to do, and the output
@@ -40,8 +43,7 @@ C: - Explain what I'm trying to do, and the output
      'orchestration engine' first
    - Test each piece of logic, if my program is a
      combination of sub-processes
-   - Don't try to be clever on the first go (refrain
-     #reduce and #with_object)
+   - Don't try to be clever on the first go
    - Refactor AFTER, not during, 1st attempt
 
 Edge cases:
