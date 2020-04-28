@@ -1,0 +1,46 @@
+def transpose(matrix)
+  m = matrix.size
+  n = matrix[0].size
+  transposed_matrix = []
+  n.times do |i|
+    transposed_row = []
+    m.times do |j|
+      transposed_row << matrix[j][i]
+    end
+    transposed_matrix << transposed_row
+  end
+  transposed_matrix
+end
+
+def reverse_columns(matrix)
+  matrix.map(&:reverse)
+end
+
+def rotate90(matrix)
+  reverse_columns(transpose(matrix))
+end
+
+def rotate(matrix, degrees)
+  num_times = degrees / 90
+  num_times.times { matrix = rotate90(matrix) }
+  matrix
+end
+
+matrix1 = [
+  [1, 5, 8],
+  [4, 7, 2],
+  [3, 9, 6]
+]
+
+matrix2 = [
+  [3, 7, 4, 2],
+  [5, 1, 0, 8]
+]
+
+new_matrix1 = rotate90(matrix1)
+new_matrix2 = rotate90(matrix2)
+new_matrix3 = rotate90(rotate90(rotate90(rotate90(matrix2))))
+
+p new_matrix1 == [[3, 4, 1], [9, 7, 5], [6, 2, 8]]
+p new_matrix2 == [[5, 3], [1, 7], [0, 4], [8, 2]]
+p new_matrix3 == matrix2
